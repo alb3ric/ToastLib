@@ -7,7 +7,7 @@ class DebugToast extends Component {
   render() {
     return (
     <div>
-      <Button onClick={() => toast.Info('test', { autoClose : 10000 })}>TEST</Button>
+      <Button onClick={() => toast.info('test', { autoClose : 10000 })}>TEST</Button>
     </div>
     );
   }
